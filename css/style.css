@@ -12,19 +12,16 @@ body{
 
 #nav-bar{
     position: fixed;
-    top: 0 px;
+    top: 0;
     left: 0;
     background-color: #cc0000;
 }
 
-@media (max-width:650px) {
-    nav {
-        margin-top: 15px;
-        width: 100%;
-        position: relative;
+@media (max-width: 600px) {
+    #nav-bar {
+      display: none;
     }
-    
-}
+  }
 
 #nav-link{
     display: flex;
@@ -34,3 +31,7 @@ body{
     margin-top: 50vh;
     align-content: center;
 }
+
+#header {
+    display: flex;
+  }
